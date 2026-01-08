@@ -2,19 +2,28 @@ const nbaBtn = document.getElementById("nbaButton");
 
 if(nbaBtn) {
     nbaBtn.addEventListener("click", () => {
-        // CHANGE THIS LINE: Fetch the local file instead of the API
-        fetch("./nba_data.json") 
-        .then(res => {
-            if (!res.ok) throw new Error("Could not find nba_data.json. Wait for the first automation run!");
-            return res.json();
-        })
+        fetch("./nba_data.json")
+        .then(res => res.json())
         .then(data => {
-            // This stays the same; it will show the data saved in that file
-            document.getElementById("output").textContent = JSON.stringify(data, null, 2);
+            const tailoredGames = data.data.map(game => {
+                return {
+                    date: game.date,
+                    startTime: game.status,
+                    homeTeam: game.home_team.full_name,
+                    visitorTeam: game.visitor_team.full_name
+                };
+            });
+    
+            let outputText = "";
+            tailoredGames.forEach(game => {
+                outputText += `${game.date} @ ${game.startTime}: ${game.visitorTeam} vs ${game.homeTeam}\n`;
+            });
+    
+            document.getElementById("output").textContent = outputText || "No games today.";
         })
         .catch(err => {
             document.getElementById("output").textContent = "Error: " + err.message;
-            console.error(err);
         });
     });
 }
+
