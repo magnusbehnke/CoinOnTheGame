@@ -1,26 +1,33 @@
-const nbaBtn = document.getElementById("nbaButton");
+// This function runs automatically when the page loads
+window.onload = function() {
+    loadNBAGames();
+};
 
-if(nbaBtn) {
-    nbaBtn.addEventListener("click", () => {
-        // Fetch the file that the Robot already cleaned up
-        fetch("./nba_data.json")
-            .then(res => {
-                if (!res.ok) throw new Error("File not found. Run the Robot first!");
-                return res.json();
-            })
-            .then(data => {
-                let outputText = "";
+function loadNBAGames() {
+    // Fetch from your local JSON file (no API key needed here!)
+    fetch("./nba_data.json")
+        .then(res => {
+            if (!res.ok) throw new Error("Data not found");
+            return res.json();
+        })
+        .then(data => {
+            const container = document.querySelector(".gamesFormat");
+            if (!container) return;
 
-                // We use data.games because that's what the jq script named the list
-                data.games.forEach(game => {
-                    outputText += `${game.time}: ${game.visitor} @ ${game.home}\n`;
-                });
+            container.innerHTML = ""; // Clear placeholders
+
+            data.games.forEach(game => {
+                const card = document.createElement("div");
+                card.className = "gameCardUI";
                 
-                document.getElementById("output").textContent = outputText || "No games scheduled for today.";
-            })
-            .catch(err => {
-                document.getElementById("output").textContent = "Error: " + err.message;
-                console.error(err);
+                // Content mapped to your CSS grid
+                card.innerHTML = `
+                    <div class="team-name">${game.visitor}</div>
+                    <div class="game-time">${game.time}</div>
+                    <div class="team-name">${game.home}</div>
+                `;
+                container.appendChild(card);
             });
-    });
+        })
+        .catch(err => console.error("Error loading games:", err));
 }
