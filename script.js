@@ -47,7 +47,7 @@ function loadNBAGames() {
                 card.innerHTML = `
                     <div style="justify-self: center; padding: 10px;">${game.visitor}</div>
                     <div style="text-align: center;">
-                        <div style="font-weight: bold;">${game.time}</div>
+                        <div style="font-weight: bold;">${displayTime}</div>
                         <div style="font-size: 0.7em; color: #aaa;">${cleanDate}</div>
                     </div>
                     <div style="justify-self: center; padding: 10px;">${game.home}</div>
@@ -59,3 +59,4 @@ function loadNBAGames() {
         })
         .catch(err => console.error("Error loading games:", err));
 }
+
