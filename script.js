@@ -21,10 +21,26 @@ function loadNBAGames() {
                 const card = document.createElement("div");
                 card.className = "gameCardUI";
 
-                const cleanDate = new Date(game.date).toLocaleDateString('en-US', {
+                // 1. Create a Date object from the UTC string
+                const dateObj = new Date(game.date);
+
+                // 2. Format the Date (e.g., "Jan 8")
+                const cleanDate = dateObj.toLocaleDateString('en-US', {
                     month: 'short',
                     day: 'numeric'
                 });
+
+                // 3. Format the Time (e.g., "7:00 PM")
+                // If game.time is a UTC string, this converts it to your local time.
+                // If game.time is a string like "Final", it will just show "Final".
+                let displayTime = game.time;
+                if (game.time.includes('T') || !isNaN(Date.parse(game.time))) {
+                    displayTime = new Date(game.time).toLocaleTimeString('en-US', {
+                        hour: 'numeric',
+                        minute: '2-digit',
+                        hour12: true
+                    });
+                }
 
                 
                 // 2. Build the card with 3 columns to match your CSS grid
