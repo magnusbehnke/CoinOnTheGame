@@ -25,14 +25,10 @@ function loadNBAGames() {
                 const dateObj = new Date(game.date);
 
                 // 2. Format the Date (e.g., "Jan 8")
-                const cleanDate = dateObj.toLocaleDateString('en-US', {
-                    month: 'short',
-                    day: 'numeric'
-                });
-
-                // 3. Format the Time (e.g., "7:00 PM")
-                // If game.time is a UTC string, this converts it to your local time.
-                // If game.time is a string like "Final", it will just show "Final".
+                const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+                const cleanDate = `${months[dateObj.getUTCMonth()]} ${dateObj.getUTCDate()}`;
+            
+                // 3. Keep the time formatting as local so you know when to watch!
                 let displayTime = game.time;
                 if (game.time.includes('T') || !isNaN(Date.parse(game.time))) {
                     displayTime = new Date(game.time).toLocaleTimeString('en-US', {
@@ -59,4 +55,5 @@ function loadNBAGames() {
         })
         .catch(err => console.error("Error loading games:", err));
 }
+
 
