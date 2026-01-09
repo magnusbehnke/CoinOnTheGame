@@ -1,0 +1,34 @@
+{
+  "games": [
+    {
+      "date": "2026-01-10T21:30:00.000Z",
+      "home": "Panthers",
+      "visitor": null
+    },
+    {
+      "date": "2026-01-11T01:00:00.000Z",
+      "home": "Bears",
+      "visitor": null
+    },
+    {
+      "date": "2026-01-11T18:00:00.000Z",
+      "home": "Jaguars",
+      "visitor": null
+    },
+    {
+      "date": "2026-01-11T21:30:00.000Z",
+      "home": "Eagles",
+      "visitor": null
+    },
+    {
+      "date": "2026-01-12T01:00:00.000Z",
+      "home": "Patriots",
+      "visitor": null
+    },
+    {
+      "date": "2026-01-13T01:15:00.000Z",
+      "home": "Steelers",
+      "visitor": null
+    }
+  ]
+}
