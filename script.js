@@ -6,12 +6,28 @@ window.onload = function() {
 };
 
 function loadAllData() {
-    // Make sure this points to your raw github link or local file
-    fetch("./nba_data.json")
-        .then(res => res.json())
+    // 1. Find the element that says NBA or NFL
+    const sportElement = document.querySelector(".sportPageText");
+    
+    // 2. Default to 'nba' if the element isn't found, otherwise grab the text
+    // .trim() removes extra spaces, .toLowerCase() makes "NBA" -> "nba"
+    const currentSport = sportElement ? sportElement.innerText.trim().toLowerCase() : "nba";
+
+    // 3. Build the URL dynamically using the sport name
+    // If you are on the NBA page, it fetches nba_data.json
+    // If you are on the NFL page, it fetches nfl_data.json
+    fetch(`./${currentSport}_data.json`) 
+        .then(res => {
+            if (!res.ok) throw new Error("File not found");
+            return res.json();
+        })
         .then(data => {
             allGames = data.games;
             displayGamesForDate(new Date()); 
+        })
+        .catch(err => {
+            console.error("Error loading data:", err);
+            document.querySelector(".gamesFormat").innerHTML = `<p style='color:white;'>Could not load ${currentSport} data.</p>`;
         });
 }
 
