@@ -45,7 +45,7 @@ function displayGamesForDate(selectedDate) {
         const cleanDate = `${months[parseInt(dateParts[1]) - 1]} ${dateParts[2]}`;
 
         
-        const date = new Date(game.time + "Z");
+        const date = new Date(game.time);
 
         const estTime = date.toLocaleTimeString("en-US", {
             timeZone: "America/New_York",
