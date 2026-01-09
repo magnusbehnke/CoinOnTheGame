@@ -20,7 +20,10 @@ function displayGamesForDate(selectedDate) {
     container.innerHTML = ""; // Clear current cards
 
     // Format the selected date to YYYY-MM-DD for comparison
-    const targetDateStr = selectedDate.toISOString().split('T')[0];
+    const year = selectedDate.getFullYear();
+    const month = String(selectedDate.getMonth() + 1).padStart(2, '0');
+    const day = String(selectedDate.getDate()).padStart(2, '0');
+    const targetDateStr = `${year}-${month}-${day}`;
 
     // Filter the big list for only games matching the clicked day
     const filteredGames = allGames.filter(game => {
@@ -91,6 +94,4 @@ function generateDayButtons() {
 
         container.appendChild(btn);
     }
-
 }
-
