@@ -1,58 +1,56 @@
-// This function runs automatically when the page loads
+let allGames = []; // Global variable to hold all 7 days of data
+
 window.onload = function() {
-    loadNBAGames();
+    generateDayButtons();
+    loadAllData(); // Fetch the big JSON file
 };
 
-function loadNBAGames() {
-    // Fetch from your local JSON file
+function loadAllData() {
     fetch("./nba_data.json")
-        .then(res => {
-            if (!res.ok) throw new Error("Data not found");
-            return res.json();
-        })
+        .then(res => res.json())
         .then(data => {
-            const container = document.querySelector(".gamesFormat");
-            if (!container) return;
+            allGames = data.games; // Save the games to our variable
+            // Display "Today" by default (day index 0)
+            displayGamesForDate(new Date()); 
+        });
+}
 
-            container.innerHTML = ""; // Clear the empty container
+function displayGamesForDate(selectedDate) {
+    const container = document.querySelector(".gamesFormat");
+    container.innerHTML = ""; // Clear current cards
 
-            data.games.forEach(game => {
-                // 1. Create the card container
-                const card = document.createElement("div");
-                card.className = "gameCardUI";
+    // Format the selected date to YYYY-MM-DD for comparison
+    const targetDateStr = selectedDate.toISOString().split('T')[0];
 
-                const dateParts = game.date.split('T')[0].split('-'); 
-                const year = dateParts[0];
-                const monthIndex = parseInt(dateParts[1]) - 1;
-                const day = dateParts[2];
+    // Filter the big list for only games matching the clicked day
+    const filteredGames = allGames.filter(game => {
+        return game.date.split('T')[0] === targetDateStr;
+    });
 
-                const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
-                const cleanDate = `${months[monthIndex]} ${day}`;
+    if (filteredGames.length === 0) {
+        container.innerHTML = "<p style='color:white;'>No games scheduled for this day.</p>";
+        return;
+    }
 
-                // 2. Format the Time to your Local Zone
-                let displayTime = game.time;
-                if (game.time.includes('T') || !isNaN(Date.parse(game.time))) {
-                    displayTime = new Date(game.time).toLocaleTimeString('en-US', {
-                        hour: 'numeric',
-                        minute: '2-digit',
-                        hour12: true
-                    });
-                }
+    filteredGames.forEach(game => {
+        const card = document.createElement("div");
+        card.className = "gameCardUI";
+        
+        // Use your manual split logic from earlier to keep the date stable
+        const dateParts = game.date.split('T')[0].split('-');
+        const months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+        const cleanDate = `${months[parseInt(dateParts[1]) - 1]} ${dateParts[2]}`;
 
-                card.innerHTML = `
-                    <div style="justify-self: center; padding: 10px;">${game.visitor}</div>
-                    <div style="text-align: center; align-self: center;">
-                        <div style="font-weight: bold; font-size: 1.1em;">${displayTime}</div>
-                        <div style="font-size: 0.8em; color: #aaa; margin-top: 4px;">${cleanDate}</div>
-                    </div>
-                    <div style="justify-self: center; padding: 10px;">${game.home}</div>
-                `;
-
-                // 3. Add the finished card to the page
-                container.appendChild(card);
-            });
-        })
-        .catch(err => console.error("Error loading games:", err));
+        card.innerHTML = `
+            <div style="justify-self: center;">${game.visitor}</div>
+            <div style="text-align: center; align-self: center;">
+                <div style="font-weight: bold;">${game.time}</div>
+                <div style="font-size: 0.8em; color: #aaa;">${cleanDate}</div>
+            </div>
+            <div style="justify-self: center;">${game.home}</div>
+        `;
+        container.appendChild(card);
+    });
 }
 
 function generateDayButtons() {
@@ -80,19 +78,14 @@ function generateDayButtons() {
 
         // When clicked, make it active and (optionally) reload games for that date
         btn.onclick = function() {
-            const allButtons = document.querySelectorAll(".dayButton");
-            allButtons.forEach(b => b.classList.remove("active"));
-
-            // 2. Now add 'active' only to the button we just clicked
+            // 1. Handle the blue "active" color
+            document.querySelectorAll(".day-btn").forEach(b => b.classList.remove("active"));
             btn.classList.add("active");
-            loadNBAGames();
+
+            // 2. Call the display function with the date assigned to THIS button
+            displayGamesForDate(date); 
         };
 
         container.appendChild(btn);
     }
 }
-
-window.onload = function() {
-    generateDayButtons();
-    loadNBAGames(); 
-};
