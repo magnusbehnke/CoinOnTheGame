@@ -53,7 +53,7 @@ jobs:
         run: |
           # 1. Manually set season to 2025 (The current 25-26 season)
           # Use 2025 because NHL seasons are named by their start year
-          SEASON="2025"
+          SEASON="2024"
           
           # 2. Generate date query for today + next 8 days
           DATE_QUERY=""
