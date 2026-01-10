@@ -2,33 +2,39 @@
   "games": [
     {
       "date": "2026-01-10T21:30:00.000Z",
-      "home": "Panthers",
-      "visitor": null
+      "time": "1/10 - 4:30 PM EST",
+      "home": "Carolina Panthers",
+      "visitor": "Los Angeles Rams"
     },
     {
       "date": "2026-01-11T01:00:00.000Z",
-      "home": "Bears",
-      "visitor": null
+      "time": "1/10 - 8:00 PM EST",
+      "home": "Chicago Bears",
+      "visitor": "Green Bay Packers"
     },
     {
       "date": "2026-01-11T18:00:00.000Z",
-      "home": "Jaguars",
-      "visitor": null
+      "time": "1/11 - 1:00 PM EST",
+      "home": "Jacksonville Jaguars",
+      "visitor": "Buffalo Bills"
     },
     {
       "date": "2026-01-11T21:30:00.000Z",
-      "home": "Eagles",
-      "visitor": null
+      "time": "1/11 - 4:30 PM EST",
+      "home": "Philadelphia Eagles",
+      "visitor": "San Francisco 49ers"
     },
     {
       "date": "2026-01-12T01:00:00.000Z",
-      "home": "Patriots",
-      "visitor": null
+      "time": "1/11 - 8:00 PM EST",
+      "home": "New England Patriots",
+      "visitor": "Los Angeles Chargers"
     },
     {
       "date": "2026-01-13T01:15:00.000Z",
-      "home": "Steelers",
-      "visitor": null
+      "time": "1/12 - 8:15 PM EST",
+      "home": "Pittsburgh Steelers",
+      "visitor": "Houston Texans"
     }
   ]
 }
