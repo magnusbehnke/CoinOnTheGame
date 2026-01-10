@@ -32,7 +32,7 @@ body
     background-color: #333;
     display: grid;
     grid-template-areas: "home buttons about";
-    grid-template-columns: 3fr 7fr 3fr;
+    grid-template-columns: 4fr 7fr 3fr;
     align-items: center; /* vertical alignment */
 }
 
@@ -57,6 +57,18 @@ body
     font-family: Roboto;
     font-size: 30px;
     color: #F0EAD6;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px; 
+}
+
+#homeLogo
+{
+    height: 70px; /* Adjust based on your 75px bar height */
+    width: auto;
+    object-fit: contain;
 }
 
 .topBarBG div.about
