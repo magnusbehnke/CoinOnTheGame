@@ -70,12 +70,12 @@ function displayGamesForDate(selectedDate) {
         });
 
         card.innerHTML = `
-            <div style="justify-self: center; font-family: Roboto;">${game.visitor}</div>
-            <div style="text-align: center; align-self: center; font-family: Roboto;">
+            <div style="justify-self: center;">${game.visitor}</div>
+            <div style="text-align: center; align-self: center;">
                 <div style="font-weight: bold;">${displayTime}</div>
                 <div style="font-size: 0.8em; color: #aaa;">${cleanDateLabel}</div>
             </div>
-            <div style="justify-self: center; font-family: Roboto;">${game.home}</div>
+            <div style="justify-self: center;">${game.home}</div>
         `;
         container.appendChild(card);
     });
