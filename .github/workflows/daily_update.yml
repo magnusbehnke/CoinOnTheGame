@@ -30,18 +30,19 @@ jobs:
 
       - name: Fetch and Tailor NFL Data
         run: |
-          # 1. Generate dates for today + next 8 days 
-          # (Extra days ensure we catch games that are UTC 'Tomorrow' but EST 'Tonight')
+          # 1. Generate dates for today + next 8 days
           DATE_QUERY=""
           for i in {0..8}; do
             D=$(date -d "+$i days" +%F)
             DATE_QUERY="${DATE_QUERY}&dates[]=$D"
           done
       
+          # 2. Fetch NFL and use math to shift UTC to EST
+          # 18000 seconds = 5 hours (UTC to EST offset)
           curl -H "Authorization: ${{ secrets.NBA_API_KEY }}" \
           "https://api.balldontlie.io/nfl/v1/games?${DATE_QUERY}&per_page=100" | \
           jq '{games: [.data[] | {
-            date: (.date | strptime("%Y-%m-%dT%H:%M:%S%Z") | mktime | strftime("%Y-%m-%d"; "America/New_York")),
+            date: (.date | sub("\\.[0-9]+Z$"; "Z") | fromdateiso8601 - 18000 | strftime("%Y-%m-%d")),
             time: .date, 
             home: .home_team.full_name, 
             visitor: .visitor_team.full_name
