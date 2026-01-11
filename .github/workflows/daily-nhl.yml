@@ -22,7 +22,7 @@ jobs:
             games: [
               .gameWeek[].games[] | {
                 # Use the raw UTC time to get the date
-                date: (.startTimeUTC | fromdateiso8601 | strftime("%Y-%m-%d")),
+                date: (.startTimeUTC | fromdateiso8601 - 18000 | strftime("%Y-%m-%d"))
                 # Use the raw UTC time to build the ISO string (NO -18000)
                 time: ((.startTimeUTC | fromdateiso8601 | strftime("%Y-%m-%dT%H:%M:%S")) + ".000Z"),
                 home: .homeTeam.commonName.default,
