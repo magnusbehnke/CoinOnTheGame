@@ -155,6 +155,10 @@ body
     background-color: #444;
 }
 
+.dayButton.active:hover {
+    background-color: #62aeff;
+}
+
 .gamesFormat
 {
     display: flex;
