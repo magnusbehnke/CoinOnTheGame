@@ -16,7 +16,7 @@ jobs:
 
       - name: Fetch NHL Data
         run: |
-          curl -s -X GET "https://api.balldontlie.io/v1/games?league=NHL&seasons[]=2025" \
+          curl -s -X GET "https://api.balldontlie.io/nhl/v1/games?seasons[]=2025" \
             -H "Authorization: ${{ secrets.NBA_API_KEY }}" | \
             jq '.data' > nhl_data.json
 
