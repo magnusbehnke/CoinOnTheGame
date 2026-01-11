@@ -1,4 +1,5 @@
 name: Daily NHL Data Fetch
+
 on:
   schedule:
     - cron: '0 12 * * *'
@@ -7,15 +8,17 @@ on:
 jobs:
   fetch-nhl:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write # Required to push changes back to the repo
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
 
-     - name: Fetch NHL Data
-      run: |
-        curl -s -X GET "https://api.balldontlie.io/v1/games?league=NHL&seasons[]=2025" \
-          -H "Authorization: ${{ secrets.NBA_API_KEY }}" | \
-          jq '.data' > nhl_data.json
+      - name: Fetch NHL Data
+        run: |
+          curl -s -X GET "https://api.balldontlie.io/v1/games?league=NHL&seasons[]=2025" \
+            -H "Authorization: ${{ secrets.NBA_API_KEY }}" | \
+            jq '.data' > nhl_data.json
 
       - name: Push NHL file back to GitHub
         run: |
@@ -24,4 +27,3 @@ jobs:
           git add nhl_data.json
           git commit -m "Automated NHL score update" || exit 0
           git push
-
