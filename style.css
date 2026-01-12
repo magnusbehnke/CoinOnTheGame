@@ -32,7 +32,7 @@ body
     background-color: #333;
     display: grid;
     grid-template-areas: "home buttons about";
-    grid-template-columns: 4fr 7fr 3fr;
+    grid-template-columns: 3fr 7fr 2fr;
     align-items: center; /* vertical alignment */
 }
 
@@ -232,6 +232,7 @@ body
     position: absolute;
     background-color: #F0EAD6;
     min-width: 100px;
+    border-radius: 10px;
 }
 
 .dropdown:hover .content
@@ -241,8 +242,10 @@ body
 
 .dropdown:hover button{
     background-color: #b5b1a4;
+    border-radius: 10px;
 }
 
 .dropdown a:hover{
     background-color: #b5b1a4;
+    border-radius: 10px;
 }
