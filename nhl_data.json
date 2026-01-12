@@ -1,36 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-01-11",
-      "time": "2026-01-11T19:00:00.000Z",
-      "home": "Jets",
-      "visitor": "Devils"
-    },
-    {
-      "date": "2026-01-11",
-      "time": "2026-01-11T22:00:00.000Z",
-      "home": "Bruins",
-      "visitor": "Penguins"
-    },
-    {
-      "date": "2026-01-11",
-      "time": "2026-01-12T00:00:00.000Z",
-      "home": "Predators",
-      "visitor": "Capitals"
-    },
-    {
-      "date": "2026-01-11",
-      "time": "2026-01-12T00:00:00.000Z",
-      "home": "Mammoth",
-      "visitor": "Blue Jackets"
-    },
-    {
-      "date": "2026-01-11",
-      "time": "2026-01-12T01:00:00.000Z",
-      "home": "Sharks",
-      "visitor": "Golden Knights"
-    },
-    {
       "date": "2026-01-12",
       "time": "2026-01-13T00:00:00.000Z",
       "home": "Sabres",
@@ -335,6 +305,24 @@
       "time": "2026-01-18T03:00:00.000Z",
       "home": "Ducks",
       "visitor": "Kings"
+    },
+    {
+      "date": "2026-01-18",
+      "time": "2026-01-18T19:00:00.000Z",
+      "home": "Stars",
+      "visitor": "Lightning"
+    },
+    {
+      "date": "2026-01-18",
+      "time": "2026-01-18T22:00:00.000Z",
+      "home": "Red Wings",
+      "visitor": "Senators"
+    },
+    {
+      "date": "2026-01-18",
+      "time": "2026-01-19T01:00:00.000Z",
+      "home": "Oilers",
+      "visitor": "Blues"
     }
   ]
 }
