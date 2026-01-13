@@ -1,37 +1,36 @@
-name: NFL Scoreboard Fetch
-concurrency: 
-  group: git-push-lock
-  cancel-in-progress: false
+name: NFL Scoreboard Bot
 
 on:
   schedule:
-    - cron: '0 12 * * *'
-  workflow_dispatch:
+    # Runs every 5 minutes (GitHub's minimum reliable interval)
+    - cron: '*/5 * * * *'
+  workflow_dispatch: # Allows you to run it manually for testing
 
 jobs:
-  fetch-nfl-scoreboard:
+  fetch-and-commit:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write  # Crucial: allows the bot to push changes
+
     steps:
-      - name: Checkout code
+      - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Fetch NFL scoreboard
+      - name: Fetch NFL Scoreboard
         run: |
-          DATE_QUERY=""
-          for i in {0..8}; do
-            D=$(date -d "+$i days" +%F)
-            DATE_QUERY="${DATE_QUERY}&dates[]=$D"
-          done
+          # Fetch from ESPN and format with jq
+          curl -s "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard" | jq '.' > nfl_scoreboard.json
 
-          curl "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
-          > nfl_scoreboard.json
-
-      - name: Push NFL file back to GitHub
+      - name: Commit and Push Changes
         run: |
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action Robot"
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          
+          # Only commit if the file actually changed
           git add nfl_scoreboard.json
-          git commit -m "Automated NFL score update" || exit 0
-
-          git pull --rebase origin main
-          git push
+          if git diff --staged --quiet; then
+            echo "No changes in scores. Skipping commit."
+          else
+            git commit -m "Update NFL Scoreboard [automated]"
+            git push
+          fi
