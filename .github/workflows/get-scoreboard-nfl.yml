@@ -1,0 +1,37 @@
+name: NFL Scoreboard Fetch
+concurrency: 
+  group: git-push-lock
+  cancel-in-progress: false
+
+on:
+  schedule:
+    - cron: '0 12 * * *'
+  workflow_dispatch:
+
+jobs:
+  fetch-nfl-scoreboard:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Fetch NFL scoreboard
+        run: |
+          DATE_QUERY=""
+          for i in {0..8}; do
+            D=$(date -d "+$i days" +%F)
+            DATE_QUERY="${DATE_QUERY}&dates[]=$D"
+          done
+
+          curl "https://site.api.espn.com/apis/site/v2/sports/football/nfl/scoreboard"
+          > nfl_scoreboard.json
+
+      - name: Push NFL file back to GitHub
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action Robot"
+          git add nfl_scoreboard.json
+          git commit -m "Automated NFL score update" || exit 0
+
+          git pull --rebase origin main
+          git push
