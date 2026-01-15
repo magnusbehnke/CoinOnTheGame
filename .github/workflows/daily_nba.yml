@@ -30,7 +30,7 @@ jobs:
 
       - name: Fetch NBA Standings from SportsDB
         run: |
-          curl -s -L -A "Mozilla/5.0" "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings" | \
+          curl -s -L -A "Mozilla/5.0" "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings" 
           > nba_standings.json
 
       - name: Push NBA file back to GitHub
