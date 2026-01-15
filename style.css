@@ -199,6 +199,12 @@ body
     text-align: center;   /* Centers text within its own grid cell */
 }
 
+.gameCardUI:hover
+{
+    background-color: #444;
+    transition: background 0.2s;
+}
+
 .dropdown
 {
     display: inline-block;
@@ -257,7 +263,6 @@ body
     grid-template-areas: "east west";
     grid-template-columns: 1fr 1fr;
     font-family: Roboto;
-    font-size: 18px;
     font-weight: 700;
     color: #F0EAD6;
 }
