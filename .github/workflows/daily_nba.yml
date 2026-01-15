@@ -31,7 +31,8 @@ jobs:
       - name: Fetch NBA Standings from SportsDB
         run: |
           curl -s -L "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings" | \
-          jq '.children[].standings.entries[] | {
+          jq '.children[] | .name as $conf | .standings.entries[] | {
+            conference: $conf,
             team: .team.displayName,
             wins: (.stats[] | select(.name=="wins").value),
             losses: (.stats[] | select(.name=="losses").value),
