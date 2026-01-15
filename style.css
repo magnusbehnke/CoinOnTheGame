@@ -257,7 +257,7 @@ body
     grid-template-areas: "east west";
     grid-template-columns: 1fr 1fr;
     font-family: Roboto;
-    font-size: 45px;
+    font-size: 18px;
     font-weight: 700;
     color: #F0EAD6;
 }
