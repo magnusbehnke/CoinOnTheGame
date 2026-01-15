@@ -3,6 +3,7 @@ let allGames = [];
 window.onload = function() {
     generateDayButtons();
     loadAllData();
+    generateStandings();
 };
 
 function loadAllData() {
