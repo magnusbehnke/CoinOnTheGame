@@ -1,66 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-01-15",
-      "time": "2026-01-16T00:00:00.000Z",
-      "home": "Sabres",
-      "visitor": "Canadiens"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T00:00:00.000Z",
-      "home": "Penguins",
-      "visitor": "Flyers"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T00:00:00.000Z",
-      "home": "Capitals",
-      "visitor": "Sharks"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T00:00:00.000Z",
-      "home": "Blue Jackets",
-      "visitor": "Canucks"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T01:00:00.000Z",
-      "home": "Bruins",
-      "visitor": "Kraken"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T01:00:00.000Z",
-      "home": "Wild",
-      "visitor": "Jets"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T01:30:00.000Z",
-      "home": "Blackhawks",
-      "visitor": "Flames"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T02:00:00.000Z",
-      "home": "Mammoth",
-      "visitor": "Stars"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T02:00:00.000Z",
-      "home": "Oilers",
-      "visitor": "Islanders"
-    },
-    {
-      "date": "2026-01-15",
-      "time": "2026-01-16T02:30:00.000Z",
-      "home": "Golden Knights",
-      "visitor": "Maple Leafs"
-    },
-    {
       "date": "2026-01-16",
       "time": "2026-01-17T00:00:00.000Z",
       "home": "Red Wings",
@@ -329,6 +269,54 @@
       "time": "2026-01-22T03:00:00.000Z",
       "home": "Canucks",
       "visitor": "Capitals"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "2026-01-23T00:00:00.000Z",
+      "home": "Bruins",
+      "visitor": "Golden Knights"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "2026-01-23T00:00:00.000Z",
+      "home": "Canadiens",
+      "visitor": "Sabres"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "2026-01-23T00:00:00.000Z",
+      "home": "Hurricanes",
+      "visitor": "Blackhawks"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "2026-01-23T00:00:00.000Z",
+      "home": "Blue Jackets",
+      "visitor": "Stars"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "2026-01-23T01:00:00.000Z",
+      "home": "Predators",
+      "visitor": "Senators"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "2026-01-23T01:00:00.000Z",
+      "home": "Jets",
+      "visitor": "Panthers"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "2026-01-23T02:00:00.000Z",
+      "home": "Oilers",
+      "visitor": "Penguins"
+    },
+    {
+      "date": "2026-01-22",
+      "time": "2026-01-23T02:30:00.000Z",
+      "home": "Wild",
+      "visitor": "Red Wings"
     }
   ]
 }
