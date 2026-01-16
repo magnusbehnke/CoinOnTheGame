@@ -33,6 +33,11 @@ jobs:
           }] | sort_by(.date)}' \
           > nfl_data.json
 
+      - name: Fetch NFL Standings
+        run: |
+          curl -s -L "https://site.api.espn.com/apis/v2/sports/basketball/nba/standings" 
+          > nba_standings.json
+
       - name: Push NFL file back to GitHub
         run: |
           git config --local user.email "action@github.com"
