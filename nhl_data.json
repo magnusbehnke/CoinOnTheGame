@@ -1,42 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-01-25",
-      "time": "2026-01-25T18:30:00.000Z",
-      "home": "Maple Leafs",
-      "visitor": "Avalanche"
-    },
-    {
-      "date": "2026-01-25",
-      "time": "2026-01-25T20:00:00.000Z",
-      "home": "Kraken",
-      "visitor": "Devils"
-    },
-    {
-      "date": "2026-01-25",
-      "time": "2026-01-25T22:00:00.000Z",
-      "home": "Senators",
-      "visitor": "Golden Knights"
-    },
-    {
-      "date": "2026-01-25",
-      "time": "2026-01-25T23:00:00.000Z",
-      "home": "Canucks",
-      "visitor": "Penguins"
-    },
-    {
-      "date": "2026-01-25",
-      "time": "2026-01-26T00:00:00.000Z",
-      "home": "Blackhawks",
-      "visitor": "Panthers"
-    },
-    {
-      "date": "2026-01-25",
-      "time": "2026-01-26T01:00:00.000Z",
-      "home": "Flames",
-      "visitor": "Ducks"
-    },
-    {
       "date": "2026-01-26",
       "time": "2026-01-27T00:00:00.000Z",
       "home": "Lightning",
@@ -323,6 +287,24 @@
       "time": "2026-02-01T03:00:00.000Z",
       "home": "Golden Knights",
       "visitor": "Kraken"
+    },
+    {
+      "date": "2026-02-01",
+      "time": "2026-02-01T20:00:00.000Z",
+      "home": "Hurricanes",
+      "visitor": "Kings"
+    },
+    {
+      "date": "2026-02-01",
+      "time": "2026-02-01T23:30:00.000Z",
+      "home": "Lightning",
+      "visitor": "Bruins"
+    },
+    {
+      "date": "2026-02-01",
+      "time": "2026-02-02T02:30:00.000Z",
+      "home": "Ducks",
+      "visitor": "Golden Knights"
     }
   ]
 }
