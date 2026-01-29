@@ -2,16 +2,16 @@
   {
     "conference": "Eastern Conference",
     "team": "Indiana Pacers",
-    "wins": 11.0,
+    "wins": 12.0,
     "losses": 36.0,
-    "seed": 15.0
+    "seed": 14.0
   },
   {
     "conference": "Eastern Conference",
     "team": "Washington Wizards",
     "wins": 11.0,
     "losses": 34.0,
-    "seed": 14.0
+    "seed": 15.0
   },
   {
     "conference": "Eastern Conference",
@@ -22,13 +22,6 @@
   },
   {
     "conference": "Eastern Conference",
-    "team": "Charlotte Hornets",
-    "wins": 19.0,
-    "losses": 28.0,
-    "seed": 11.0
-  },
-  {
-    "conference": "Eastern Conference",
     "team": "Milwaukee Bucks",
     "wins": 18.0,
     "losses": 27.0,
@@ -36,31 +29,38 @@
   },
   {
     "conference": "Eastern Conference",
+    "team": "Charlotte Hornets",
+    "wins": 20.0,
+    "losses": 28.0,
+    "seed": 11.0
+  },
+  {
+    "conference": "Eastern Conference",
     "team": "Atlanta Hawks",
-    "wins": 23.0,
+    "wins": 24.0,
     "losses": 25.0,
-    "seed": 10.0
+    "seed": 9.0
   },
   {
     "conference": "Eastern Conference",
     "team": "Chicago Bulls",
     "wins": 23.0,
-    "losses": 23.0,
-    "seed": 9.0
+    "losses": 24.0,
+    "seed": 10.0
   },
   {
     "conference": "Eastern Conference",
     "team": "Orlando Magic",
-    "wins": 23.0,
+    "wins": 24.0,
     "losses": 22.0,
-    "seed": 8.0
+    "seed": 7.0
   },
   {
     "conference": "Eastern Conference",
     "team": "Miami Heat",
     "wins": 25.0,
-    "losses": 22.0,
-    "seed": 7.0
+    "losses": 23.0,
+    "seed": 8.0
   },
   {
     "conference": "Eastern Conference",
@@ -71,31 +71,31 @@
   },
   {
     "conference": "Eastern Conference",
+    "team": "Toronto Raptors",
+    "wins": 29.0,
+    "losses": 20.0,
+    "seed": 4.0
+  },
+  {
+    "conference": "Eastern Conference",
     "team": "Cleveland Cavaliers",
-    "wins": 28.0,
+    "wins": 29.0,
     "losses": 20.0,
     "seed": 5.0
   },
   {
     "conference": "Eastern Conference",
     "team": "New York Knicks",
-    "wins": 28.0,
-    "losses": 18.0,
-    "seed": 3.0
-  },
-  {
-    "conference": "Eastern Conference",
-    "team": "Toronto Raptors",
     "wins": 29.0,
-    "losses": 19.0,
-    "seed": 4.0
+    "losses": 18.0,
+    "seed": 2.0
   },
   {
     "conference": "Eastern Conference",
     "team": "Boston Celtics",
     "wins": 29.0,
-    "losses": 17.0,
-    "seed": 2.0
+    "losses": 18.0,
+    "seed": 3.0
   },
   {
     "conference": "Eastern Conference",
@@ -122,21 +122,21 @@
     "conference": "Western Conference",
     "team": "Utah Jazz",
     "wins": 15.0,
-    "losses": 32.0,
+    "losses": 33.0,
     "seed": 13.0
   },
   {
     "conference": "Western Conference",
     "team": "Dallas Mavericks",
     "wins": 19.0,
-    "losses": 27.0,
+    "losses": 28.0,
     "seed": 11.0
   },
   {
     "conference": "Western Conference",
     "team": "Memphis Grizzlies",
     "wins": 18.0,
-    "losses": 26.0,
+    "losses": 27.0,
     "seed": 12.0
   },
   {
@@ -156,7 +156,7 @@
   {
     "conference": "Western Conference",
     "team": "Golden State Warriors",
-    "wins": 26.0,
+    "wins": 27.0,
     "losses": 22.0,
     "seed": 8.0
   },
@@ -165,27 +165,27 @@
     "team": "Phoenix Suns",
     "wins": 28.0,
     "losses": 19.0,
-    "seed": 6.0
-  },
-  {
-    "conference": "Western Conference",
-    "team": "Minnesota Timberwolves",
-    "wins": 28.0,
-    "losses": 19.0,
     "seed": 7.0
   },
   {
     "conference": "Western Conference",
     "team": "Los Angeles Lakers",
     "wins": 28.0,
-    "losses": 17.0,
+    "losses": 18.0,
     "seed": 5.0
+  },
+  {
+    "conference": "Western Conference",
+    "team": "Minnesota Timberwolves",
+    "wins": 29.0,
+    "losses": 19.0,
+    "seed": 6.0
   },
   {
     "conference": "Western Conference",
     "team": "Houston Rockets",
     "wins": 28.0,
-    "losses": 16.0,
+    "losses": 17.0,
     "seed": 4.0
   },
   {
@@ -198,7 +198,7 @@
   {
     "conference": "Western Conference",
     "team": "San Antonio Spurs",
-    "wins": 31.0,
+    "wins": 32.0,
     "losses": 15.0,
     "seed": 2.0
   },
