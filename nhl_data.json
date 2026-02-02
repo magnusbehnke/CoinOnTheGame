@@ -1,24 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-02-01",
-      "time": "2026-02-01T20:00:00.000Z",
-      "home": "Hurricanes",
-      "visitor": "Kings"
-    },
-    {
-      "date": "2026-02-01",
-      "time": "2026-02-01T23:30:00.000Z",
-      "home": "Lightning",
-      "visitor": "Bruins"
-    },
-    {
-      "date": "2026-02-01",
-      "time": "2026-02-02T02:30:00.000Z",
-      "home": "Ducks",
-      "visitor": "Golden Knights"
-    },
-    {
       "date": "2026-02-02",
       "time": "2026-02-03T00:00:00.000Z",
       "home": "Panthers",
