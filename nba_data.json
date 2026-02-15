@@ -113,6 +113,42 @@
       "time": "2026-02-21T03:00:00Z",
       "home": "Portland Trail Blazers",
       "visitor": "Denver Nuggets"
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-21T22:00:00Z",
+      "home": "Phoenix Suns",
+      "visitor": "Orlando Magic"
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-22T00:00:00Z",
+      "home": "New Orleans Pelicans",
+      "visitor": "Philadelphia 76ers"
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-22T01:00:00Z",
+      "home": "Miami Heat",
+      "visitor": "Memphis Grizzlies"
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-22T01:00:00Z",
+      "home": "Chicago Bulls",
+      "visitor": "Detroit Pistons"
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-22T01:00:00Z",
+      "home": "San Antonio Spurs",
+      "visitor": "Sacramento Kings"
+    },
+    {
+      "date": "2026-02-21",
+      "time": "2026-02-22T01:30:00Z",
+      "home": "New York Knicks",
+      "visitor": "Houston Rockets"
     }
   ]
 }
