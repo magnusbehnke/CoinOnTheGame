@@ -1,75 +1,51 @@
 {
   "games": [
     {
-      "date": "2026-02-15",
-      "time": "2026-02-15T11:00:00.000Z",
-      "home": "Czechia",
-      "visitor": "Switzerland"
-    },
-    {
-      "date": "2026-02-15",
-      "time": "2026-02-15T15:30:00.000Z",
-      "home": "France",
-      "visitor": "Canada"
-    },
-    {
-      "date": "2026-02-15",
-      "time": "2026-02-15T18:00:00.000Z",
-      "home": "Latvia",
-      "visitor": "Denmark"
-    },
-    {
-      "date": "2026-02-15",
-      "time": "2026-02-15T20:00:00.000Z",
+      "date": "2026-02-17",
+      "time": "2026-02-17T11:00:00.000Z",
       "home": "Germany",
-      "visitor": "USA"
+      "visitor": "France"
     },
     {
       "date": "2026-02-17",
       "time": "2026-02-17T11:00:00.000Z",
-      "home": "TBD",
-      "visitor": "TBD"
-    },
-    {
-      "date": "2026-02-17",
-      "time": "2026-02-17T11:00:00.000Z",
-      "home": "TBD",
-      "visitor": "TBD"
+      "home": "Switzerland",
+      "visitor": "Italy"
     },
     {
       "date": "2026-02-17",
       "time": "2026-02-17T15:30:00.000Z",
-      "home": "TBD",
-      "visitor": "TBD"
+      "home": "Czechia",
+      "visitor": "Denmark"
     },
     {
       "date": "2026-02-17",
       "time": "2026-02-17T20:00:00.000Z",
-      "home": "TBD",
-      "visitor": "TBD"
+      "home": "Sweden",
+      "visitor": "Latvia"
     },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T11:00:00.000Z",
-      "home": "TBD",
+      "home": "Slovakia",
       "visitor": "TBD"
     },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T15:30:00.000Z",
-      "home": "TBD",
+      "home": "Canada",
       "visitor": "TBD"
     },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T17:00:00.000Z",
-      "home": "TBD",
+      "home": "Finland",
       "visitor": "TBD"
     },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T20:00:00.000Z",
-      "home": "TBD",
+      "home": "USA",
       "visitor": "TBD"
     },
     {
@@ -87,6 +63,12 @@
     {
       "date": "2026-02-21",
       "time": "2026-02-21T19:30:00.000Z",
+      "home": "TBD",
+      "visitor": "TBD"
+    },
+    {
+      "date": "2026-02-22",
+      "time": "2026-02-22T13:00:00.000Z",
       "home": "TBD",
       "visitor": "TBD"
     }
