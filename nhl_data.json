@@ -1,52 +1,28 @@
 {
   "games": [
     {
-      "date": "2026-02-17",
-      "time": "2026-02-17T11:00:00.000Z",
-      "home": "Germany",
-      "visitor": "France"
-    },
-    {
-      "date": "2026-02-17",
-      "time": "2026-02-17T11:00:00.000Z",
-      "home": "Switzerland",
-      "visitor": "Italy"
-    },
-    {
-      "date": "2026-02-17",
-      "time": "2026-02-17T15:30:00.000Z",
-      "home": "Czechia",
-      "visitor": "Denmark"
-    },
-    {
-      "date": "2026-02-17",
-      "time": "2026-02-17T20:00:00.000Z",
-      "home": "Sweden",
-      "visitor": "Latvia"
-    },
-    {
       "date": "2026-02-18",
       "time": "2026-02-18T11:00:00.000Z",
       "home": "Slovakia",
-      "visitor": "TBD"
+      "visitor": "Germany"
     },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T15:30:00.000Z",
       "home": "Canada",
-      "visitor": "TBD"
+      "visitor": "Czechia"
     },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T17:00:00.000Z",
       "home": "Finland",
-      "visitor": "TBD"
+      "visitor": "Switzerland"
     },
     {
       "date": "2026-02-18",
       "time": "2026-02-18T20:00:00.000Z",
       "home": "USA",
-      "visitor": "TBD"
+      "visitor": "Sweden"
     },
     {
       "date": "2026-02-20",
