@@ -71,6 +71,78 @@
       "time": "2026-02-26T03:30:00.000Z",
       "home": "Ducks",
       "visitor": "Oilers"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T00:00:00.000Z",
+      "home": "Bruins",
+      "visitor": "Blue Jackets"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T00:00:00.000Z",
+      "home": "Canadiens",
+      "visitor": "Islanders"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T00:00:00.000Z",
+      "home": "Senators",
+      "visitor": "Red Wings"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T00:00:00.000Z",
+      "home": "Panthers",
+      "visitor": "Maple Leafs"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T00:00:00.000Z",
+      "home": "Penguins",
+      "visitor": "Devils"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T00:00:00.000Z",
+      "home": "Hurricanes",
+      "visitor": "Lightning"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T01:00:00.000Z",
+      "home": "Rangers",
+      "visitor": "Flyers"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T01:00:00.000Z",
+      "home": "Blues",
+      "visitor": "Kraken"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T01:00:00.000Z",
+      "home": "Predators",
+      "visitor": "Blackhawks"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T02:00:00.000Z",
+      "home": "Avalanche",
+      "visitor": "Wild"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T03:00:00.000Z",
+      "home": "Sharks",
+      "visitor": "Flames"
+    },
+    {
+      "date": "2026-02-26",
+      "time": "2026-02-27T03:30:00.000Z",
+      "home": "Kings",
+      "visitor": "Oilers"
     }
   ]
 }
