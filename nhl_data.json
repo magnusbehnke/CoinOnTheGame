@@ -1,42 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-03-01",
-      "time": "2026-03-01T18:00:00.000Z",
-      "home": "Penguins",
-      "visitor": "Golden Knights"
-    },
-    {
-      "date": "2026-03-01",
-      "time": "2026-03-01T21:00:00.000Z",
-      "home": "Mammoth",
-      "visitor": "Blackhawks"
-    },
-    {
-      "date": "2026-03-01",
-      "time": "2026-03-01T21:00:00.000Z",
-      "home": "Sharks",
-      "visitor": "Jets"
-    },
-    {
-      "date": "2026-03-01",
-      "time": "2026-03-01T22:00:00.000Z",
-      "home": "Wild",
-      "visitor": "Blues"
-    },
-    {
-      "date": "2026-03-01",
-      "time": "2026-03-01T23:30:00.000Z",
-      "home": "Islanders",
-      "visitor": "Panthers"
-    },
-    {
-      "date": "2026-03-01",
-      "time": "2026-03-02T01:00:00.000Z",
-      "home": "Ducks",
-      "visitor": "Flames"
-    },
-    {
       "date": "2026-03-02",
       "time": "2026-03-02T19:00:00.000Z",
       "home": "Predators",
@@ -323,6 +287,48 @@
       "time": "2026-03-08T03:00:00.000Z",
       "home": "Kraken",
       "visitor": "Senators"
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-08T18:00:00.000Z",
+      "home": "Avalanche",
+      "visitor": "Wild"
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-08T20:30:00.000Z",
+      "home": "Penguins",
+      "visitor": "Bruins"
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-08T22:00:00.000Z",
+      "home": "Sabres",
+      "visitor": "Lightning"
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-08T22:00:00.000Z",
+      "home": "Stars",
+      "visitor": "Blackhawks"
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-08T23:00:00.000Z",
+      "home": "Devils",
+      "visitor": "Red Wings"
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-09T01:00:00.000Z",
+      "home": "Ducks",
+      "visitor": "Blues"
+    },
+    {
+      "date": "2026-03-08",
+      "time": "2026-03-09T01:30:00.000Z",
+      "home": "Golden Knights",
+      "visitor": "Oilers"
     }
   ]
 }
