@@ -1,48 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-03-06",
-      "time": "2026-03-07T00:00:00.000Z",
-      "home": "Red Wings",
-      "visitor": "Panthers"
-    },
-    {
-      "date": "2026-03-06",
-      "time": "2026-03-07T01:00:00.000Z",
-      "home": "Stars",
-      "visitor": "Avalanche"
-    },
-    {
-      "date": "2026-03-06",
-      "time": "2026-03-07T01:30:00.000Z",
-      "home": "Blackhawks",
-      "visitor": "Canucks"
-    },
-    {
-      "date": "2026-03-06",
-      "time": "2026-03-07T02:00:00.000Z",
-      "home": "Oilers",
-      "visitor": "Hurricanes"
-    },
-    {
-      "date": "2026-03-06",
-      "time": "2026-03-07T02:00:00.000Z",
-      "home": "Ducks",
-      "visitor": "Canadiens"
-    },
-    {
-      "date": "2026-03-06",
-      "time": "2026-03-07T03:00:00.000Z",
-      "home": "Golden Knights",
-      "visitor": "Wild"
-    },
-    {
-      "date": "2026-03-06",
-      "time": "2026-03-07T03:00:00.000Z",
-      "home": "Sharks",
-      "visitor": "Blues"
-    },
-    {
       "date": "2026-03-07",
       "time": "2026-03-07T17:30:00.000Z",
       "home": "Bruins",
@@ -353,6 +311,18 @@
       "time": "2026-03-13T02:00:00.000Z",
       "home": "Kraken",
       "visitor": "Avalanche"
+    },
+    {
+      "date": "2026-03-13",
+      "time": "2026-03-13T23:00:00.000Z",
+      "home": "Islanders",
+      "visitor": "Kings"
+    },
+    {
+      "date": "2026-03-13",
+      "time": "2026-03-14T00:00:00.000Z",
+      "home": "Blues",
+      "visitor": "Oilers"
     }
   ]
 }
