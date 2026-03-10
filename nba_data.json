@@ -1,36 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-03-09",
-      "time": "2026-03-09T23:00:00Z",
-      "home": "Cleveland Cavaliers",
-      "visitor": "Philadelphia 76ers"
-    },
-    {
-      "date": "2026-03-09",
-      "time": "2026-03-09T23:30:00Z",
-      "home": "Brooklyn Nets",
-      "visitor": "Memphis Grizzlies"
-    },
-    {
-      "date": "2026-03-09",
-      "time": "2026-03-09T23:30:00Z",
-      "home": "Oklahoma City Thunder",
-      "visitor": "Denver Nuggets"
-    },
-    {
-      "date": "2026-03-09",
-      "time": "2026-03-10T01:00:00Z",
-      "home": "Utah Jazz",
-      "visitor": "Golden State Warriors"
-    },
-    {
-      "date": "2026-03-09",
-      "time": "2026-03-10T02:00:00Z",
-      "home": "LA Clippers",
-      "visitor": "New York Knicks"
-    },
-    {
       "date": "2026-03-10",
       "time": "2026-03-10T23:00:00Z",
       "home": "Philadelphia 76ers",
@@ -317,6 +287,54 @@
       "time": "2026-03-16T02:00:00Z",
       "home": "Sacramento Kings",
       "visitor": "Utah Jazz"
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-16T23:00:00Z",
+      "home": "Atlanta Hawks",
+      "visitor": "Orlando Magic"
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-16T23:00:00Z",
+      "home": "Washington Wizards",
+      "visitor": "Golden State Warriors"
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-16T23:30:00Z",
+      "home": "Brooklyn Nets",
+      "visitor": "Portland Trail Blazers"
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-16T23:30:00Z",
+      "home": "Boston Celtics",
+      "visitor": "Phoenix Suns"
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-17T00:00:00Z",
+      "home": "Chicago Bulls",
+      "visitor": "Memphis Grizzlies"
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-17T00:00:00Z",
+      "home": "New Orleans Pelicans",
+      "visitor": "Dallas Mavericks"
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-17T01:30:00Z",
+      "home": "Houston Rockets",
+      "visitor": "Los Angeles Lakers"
+    },
+    {
+      "date": "2026-03-16",
+      "time": "2026-03-17T02:00:00Z",
+      "home": "LA Clippers",
+      "visitor": "San Antonio Spurs"
     }
   ]
 }
