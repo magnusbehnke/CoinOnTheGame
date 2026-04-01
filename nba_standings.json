@@ -1,9 +1,16 @@
 [
   {
     "conference": "Eastern Conference",
+    "team": "Detroit Pistons",
+    "wins": 55.0,
+    "losses": 21.0,
+    "seed": 1.0
+  },
+  {
+    "conference": "Eastern Conference",
     "team": "New York Knicks",
     "wins": 48.0,
-    "losses": 27.0,
+    "losses": 28.0,
     "seed": 3.0
   },
   {
@@ -12,13 +19,6 @@
     "wins": 50.0,
     "losses": 25.0,
     "seed": 2.0
-  },
-  {
-    "conference": "Eastern Conference",
-    "team": "Detroit Pistons",
-    "wins": 54.0,
-    "losses": 21.0,
-    "seed": 1.0
   },
   {
     "conference": "Eastern Conference",
@@ -38,7 +38,7 @@
     "conference": "Eastern Conference",
     "team": "Brooklyn Nets",
     "wins": 18.0,
-    "losses": 57.0,
+    "losses": 58.0,
     "seed": 13.0
   },
   {
@@ -51,23 +51,9 @@
   {
     "conference": "Eastern Conference",
     "team": "Milwaukee Bucks",
-    "wins": 29.0,
+    "wins": 30.0,
     "losses": 45.0,
     "seed": 11.0
-  },
-  {
-    "conference": "Eastern Conference",
-    "team": "Charlotte Hornets",
-    "wins": 39.0,
-    "losses": 36.0,
-    "seed": 10.0
-  },
-  {
-    "conference": "Eastern Conference",
-    "team": "Orlando Magic",
-    "wins": 39.0,
-    "losses": 35.0,
-    "seed": 8.0
   },
   {
     "conference": "Eastern Conference",
@@ -75,6 +61,20 @@
     "wins": 40.0,
     "losses": 36.0,
     "seed": 9.0
+  },
+  {
+    "conference": "Eastern Conference",
+    "team": "Charlotte Hornets",
+    "wins": 40.0,
+    "losses": 36.0,
+    "seed": 10.0
+  },
+  {
+    "conference": "Eastern Conference",
+    "team": "Orlando Magic",
+    "wins": 40.0,
+    "losses": 35.0,
+    "seed": 8.0
   },
   {
     "conference": "Eastern Conference",
@@ -87,22 +87,29 @@
     "conference": "Eastern Conference",
     "team": "Toronto Raptors",
     "wins": 42.0,
-    "losses": 32.0,
-    "seed": 5.0
+    "losses": 33.0,
+    "seed": 6.0
   },
   {
     "conference": "Eastern Conference",
     "team": "Atlanta Hawks",
     "wins": 43.0,
     "losses": 33.0,
-    "seed": 6.0
+    "seed": 5.0
   },
   {
     "conference": "Eastern Conference",
     "team": "Cleveland Cavaliers",
     "wins": 47.0,
-    "losses": 28.0,
+    "losses": 29.0,
     "seed": 4.0
+  },
+  {
+    "conference": "Western Conference",
+    "team": "Los Angeles Lakers",
+    "wins": 50.0,
+    "losses": 26.0,
+    "seed": 3.0
   },
   {
     "conference": "Western Conference",
@@ -120,6 +127,13 @@
   },
   {
     "conference": "Western Conference",
+    "team": "Denver Nuggets",
+    "wins": 48.0,
+    "losses": 28.0,
+    "seed": 4.0
+  },
+  {
+    "conference": "Western Conference",
     "team": "Golden State Warriors",
     "wins": 36.0,
     "losses": 39.0,
@@ -128,9 +142,16 @@
   {
     "conference": "Western Conference",
     "team": "Portland Trail Blazers",
-    "wins": 38.0,
+    "wins": 39.0,
     "losses": 38.0,
     "seed": 9.0
+  },
+  {
+    "conference": "Western Conference",
+    "team": "LA Clippers",
+    "wins": 39.0,
+    "losses": 37.0,
+    "seed": 8.0
   },
   {
     "conference": "Western Conference",
@@ -150,7 +171,7 @@
     "conference": "Western Conference",
     "team": "Dallas Mavericks",
     "wins": 24.0,
-    "losses": 51.0,
+    "losses": 52.0,
     "seed": 13.0
   },
   {
@@ -169,24 +190,10 @@
   },
   {
     "conference": "Western Conference",
-    "team": "LA Clippers",
-    "wins": 39.0,
-    "losses": 36.0,
-    "seed": 8.0
-  },
-  {
-    "conference": "Western Conference",
     "team": "Phoenix Suns",
     "wins": 42.0,
-    "losses": 33.0,
+    "losses": 34.0,
     "seed": 7.0
-  },
-  {
-    "conference": "Western Conference",
-    "team": "Houston Rockets",
-    "wins": 45.0,
-    "losses": 29.0,
-    "seed": 6.0
   },
   {
     "conference": "Western Conference",
@@ -197,16 +204,9 @@
   },
   {
     "conference": "Western Conference",
-    "team": "Denver Nuggets",
-    "wins": 48.0,
-    "losses": 28.0,
-    "seed": 4.0
-  },
-  {
-    "conference": "Western Conference",
-    "team": "Los Angeles Lakers",
-    "wins": 49.0,
-    "losses": 26.0,
-    "seed": 3.0
+    "team": "Houston Rockets",
+    "wins": 46.0,
+    "losses": 29.0,
+    "seed": 6.0
   }
 ]

@@ -1,48 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-03-31",
-      "time": "2026-04-01T00:00:00Z",
-      "home": "Milwaukee Bucks",
-      "visitor": "Dallas Mavericks"
-    },
-    {
-      "date": "2026-03-31",
-      "time": "2026-03-31T23:00:00Z",
-      "home": "Orlando Magic",
-      "visitor": "Phoenix Suns"
-    },
-    {
-      "date": "2026-03-31",
-      "time": "2026-03-31T23:30:00Z",
-      "home": "Brooklyn Nets",
-      "visitor": "Charlotte Hornets"
-    },
-    {
-      "date": "2026-03-31",
-      "time": "2026-04-01T00:00:00Z",
-      "home": "Detroit Pistons",
-      "visitor": "Toronto Raptors"
-    },
-    {
-      "date": "2026-03-31",
-      "time": "2026-04-01T00:00:00Z",
-      "home": "Houston Rockets",
-      "visitor": "New York Knicks"
-    },
-    {
-      "date": "2026-03-31",
-      "time": "2026-04-01T02:30:00Z",
-      "home": "Los Angeles Lakers",
-      "visitor": "Cleveland Cavaliers"
-    },
-    {
-      "date": "2026-03-31",
-      "time": "2026-04-01T03:00:00Z",
-      "home": "LA Clippers",
-      "visitor": "Portland Trail Blazers"
-    },
-    {
       "date": "2026-04-01",
       "time": "2026-04-02T00:00:00Z",
       "home": "Memphis Grizzlies",
@@ -299,6 +257,66 @@
       "time": "2026-04-07T01:00:00Z",
       "home": "Denver Nuggets",
       "visitor": "Portland Trail Blazers"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-07T23:00:00Z",
+      "home": "Washington Wizards",
+      "visitor": "Chicago Bulls"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-08T00:00:00Z",
+      "home": "Boston Celtics",
+      "visitor": "Charlotte Hornets"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-07T23:30:00Z",
+      "home": "Brooklyn Nets",
+      "visitor": "Milwaukee Bucks"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-07T23:30:00Z",
+      "home": "Toronto Raptors",
+      "visitor": "Miami Heat"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-07T23:00:00Z",
+      "home": "Indiana Pacers",
+      "visitor": "Minnesota Timberwolves"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-08T00:00:00Z",
+      "home": "New Orleans Pelicans",
+      "visitor": "Utah Jazz"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-08T02:00:00Z",
+      "home": "Golden State Warriors",
+      "visitor": "Sacramento Kings"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-08T02:30:00Z",
+      "home": "Los Angeles Lakers",
+      "visitor": "Oklahoma City Thunder"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-08T02:30:00Z",
+      "home": "LA Clippers",
+      "visitor": "Dallas Mavericks"
+    },
+    {
+      "date": "2026-04-07",
+      "time": "2026-04-08T03:00:00Z",
+      "home": "Phoenix Suns",
+      "visitor": "Houston Rockets"
     }
   ]
 }
