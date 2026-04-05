@@ -1,24 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-04-04",
-      "time": "2026-04-04T19:00:00Z",
-      "home": "Miami Heat",
-      "visitor": "Washington Wizards"
-    },
-    {
-      "date": "2026-04-04",
-      "time": "2026-04-04T19:00:00Z",
-      "home": "Denver Nuggets",
-      "visitor": "San Antonio Spurs"
-    },
-    {
-      "date": "2026-04-04",
-      "time": "2026-04-04T23:00:00Z",
-      "home": "Philadelphia 76ers",
-      "visitor": "Detroit Pistons"
-    },
-    {
       "date": "2026-04-05",
       "time": "2026-04-05T19:30:00Z",
       "home": "Boston Celtics",
