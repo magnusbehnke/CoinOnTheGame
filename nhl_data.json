@@ -1,72 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-04-07",
-      "time": "2026-04-07T23:00:00.000Z",
-      "home": "Canadiens",
-      "visitor": "Panthers"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-07T23:00:00.000Z",
-      "home": "Senators",
-      "visitor": "Lightning"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-07T23:00:00.000Z",
-      "home": "Red Wings",
-      "visitor": "Blue Jackets"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-07T23:00:00.000Z",
-      "home": "Devils",
-      "visitor": "Flyers"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-07T23:00:00.000Z",
-      "home": "Hurricanes",
-      "visitor": "Bruins"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-08T00:00:00.000Z",
-      "home": "Blues",
-      "visitor": "Avalanche"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-08T00:00:00.000Z",
-      "home": "Stars",
-      "visitor": "Flames"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-08T00:00:00.000Z",
-      "home": "Wild",
-      "visitor": "Kraken"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-08T01:30:00.000Z",
-      "home": "Mammoth",
-      "visitor": "Oilers"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-08T02:00:00.000Z",
-      "home": "Canucks",
-      "visitor": "Golden Knights"
-    },
-    {
-      "date": "2026-04-07",
-      "time": "2026-04-08T02:00:00.000Z",
-      "home": "Ducks",
-      "visitor": "Predators"
-    },
-    {
       "date": "2026-04-08",
       "time": "2026-04-08T23:00:00.000Z",
       "home": "Rangers",
@@ -353,6 +287,60 @@
       "time": "2026-04-14T02:00:00.000Z",
       "home": "Golden Knights",
       "visitor": "Jets"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-14T23:00:00.000Z",
+      "home": "Bruins",
+      "visitor": "Devils"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-14T23:00:00.000Z",
+      "home": "Islanders",
+      "visitor": "Hurricanes"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-14T23:00:00.000Z",
+      "home": "Flyers",
+      "visitor": "Canadiens"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-14T23:00:00.000Z",
+      "home": "Blue Jackets",
+      "visitor": "Capitals"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-15T00:00:00.000Z",
+      "home": "Wild",
+      "visitor": "Ducks"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-15T01:00:00.000Z",
+      "home": "Mammoth",
+      "visitor": "Jets"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-15T01:00:00.000Z",
+      "home": "Flames",
+      "visitor": "Avalanche"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-15T01:30:00.000Z",
+      "home": "Blues",
+      "visitor": "Penguins"
+    },
+    {
+      "date": "2026-04-14",
+      "time": "2026-04-15T02:00:00.000Z",
+      "home": "Canucks",
+      "visitor": "Kings"
     }
   ]
 }
