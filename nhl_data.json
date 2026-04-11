@@ -278,6 +278,12 @@
     },
     {
       "date": "2026-04-16",
+      "time": "2026-04-16T23:30:00.000Z",
+      "home": "Mammoth",
+      "visitor": "Blues"
+    },
+    {
+      "date": "2026-04-16",
       "time": "2026-04-17T00:00:00.000Z",
       "home": "Predators",
       "visitor": "Ducks"
@@ -287,12 +293,6 @@
       "time": "2026-04-17T00:00:00.000Z",
       "home": "Jets",
       "visitor": "Sharks"
-    },
-    {
-      "date": "2026-04-16",
-      "time": "2026-04-17T00:00:00.000Z",
-      "home": "Mammoth",
-      "visitor": "Blues"
     },
     {
       "date": "2026-04-16",
@@ -308,7 +308,7 @@
     },
     {
       "date": "2026-04-16",
-      "time": "2026-04-17T02:30:00.000Z",
+      "time": "2026-04-17T02:00:00.000Z",
       "home": "Avalanche",
       "visitor": "Kraken"
     }
