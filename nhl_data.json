@@ -1,42 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-04-12",
-      "time": "2026-04-12T19:00:00.000Z",
-      "home": "Capitals",
-      "visitor": "Penguins"
-    },
-    {
-      "date": "2026-04-12",
-      "time": "2026-04-12T22:00:00.000Z",
-      "home": "Islanders",
-      "visitor": "Canadiens"
-    },
-    {
-      "date": "2026-04-12",
-      "time": "2026-04-12T22:00:00.000Z",
-      "home": "Blue Jackets",
-      "visitor": "Bruins"
-    },
-    {
-      "date": "2026-04-12",
-      "time": "2026-04-12T23:00:00.000Z",
-      "home": "Devils",
-      "visitor": "Senators"
-    },
-    {
-      "date": "2026-04-12",
-      "time": "2026-04-13T00:00:00.000Z",
-      "home": "Ducks",
-      "visitor": "Canucks"
-    },
-    {
-      "date": "2026-04-12",
-      "time": "2026-04-13T01:00:00.000Z",
-      "home": "Flames",
-      "visitor": "Mammoth"
-    },
-    {
       "date": "2026-04-13",
       "time": "2026-04-13T23:00:00.000Z",
       "home": "Lightning",
