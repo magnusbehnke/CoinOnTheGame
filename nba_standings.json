@@ -120,6 +120,13 @@
   },
   {
     "conference": "Western Conference",
+    "team": "Portland Trail Blazers",
+    "wins": 42.0,
+    "losses": 40.0,
+    "seed": 7.0
+  },
+  {
+    "conference": "Western Conference",
     "team": "Minnesota Timberwolves",
     "wins": 49.0,
     "losses": 33.0,
@@ -148,13 +155,6 @@
   },
   {
     "conference": "Western Conference",
-    "team": "Portland Trail Blazers",
-    "wins": 42.0,
-    "losses": 40.0,
-    "seed": 8.0
-  },
-  {
-    "conference": "Western Conference",
     "team": "LA Clippers",
     "wins": 42.0,
     "losses": 40.0,
@@ -165,7 +165,7 @@
     "team": "Phoenix Suns",
     "wins": 45.0,
     "losses": 37.0,
-    "seed": 7.0
+    "seed": 8.0
   },
   {
     "conference": "Western Conference",
