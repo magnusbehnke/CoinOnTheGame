@@ -1,24 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-04-21",
-      "time": "2026-04-22T00:00:00Z",
-      "home": "San Antonio Spurs",
-      "visitor": "Portland Trail Blazers"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "2026-04-22T02:30:00Z",
-      "home": "Los Angeles Lakers",
-      "visitor": "Houston Rockets"
-    },
-    {
-      "date": "2026-04-21",
-      "time": "2026-04-21T23:00:00Z",
-      "home": "Boston Celtics",
-      "visitor": "Philadelphia 76ers"
-    },
-    {
       "date": "2026-04-22",
       "time": "2026-04-22T23:00:00Z",
       "home": "Detroit Pistons",
@@ -131,6 +113,24 @@
       "time": "2026-04-28T01:30:00Z",
       "home": "Phoenix Suns",
       "visitor": "Oklahoma City Thunder"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "2026-04-28T04:00:00Z",
+      "home": "New York Knicks",
+      "visitor": "Atlanta Hawks"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "2026-04-28T04:00:00Z",
+      "home": "San Antonio Spurs",
+      "visitor": "Portland Trail Blazers"
+    },
+    {
+      "date": "2026-04-28",
+      "time": "2026-04-28T04:00:00Z",
+      "home": "Boston Celtics",
+      "visitor": "Philadelphia 76ers"
     }
   ]
 }
