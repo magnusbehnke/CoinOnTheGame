@@ -1,24 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-04-22",
-      "time": "2026-04-22T23:00:00.000Z",
-      "home": "Flyers",
-      "visitor": "Penguins"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "2026-04-23T01:30:00.000Z",
-      "home": "Wild",
-      "visitor": "Stars"
-    },
-    {
-      "date": "2026-04-22",
-      "time": "2026-04-23T02:00:00.000Z",
-      "home": "Oilers",
-      "visitor": "Ducks"
-    },
-    {
       "date": "2026-04-23",
       "time": "2026-04-23T23:00:00.000Z",
       "home": "Bruins",
@@ -116,21 +98,45 @@
     },
     {
       "date": "2026-04-28",
-      "time": "2026-04-28T16:00:00.000Z",
+      "time": "2026-04-28T23:30:00.000Z",
       "home": "Sabres",
       "visitor": "Bruins"
     },
     {
       "date": "2026-04-28",
-      "time": "2026-04-28T16:00:00.000Z",
+      "time": "2026-04-29T00:00:00.000Z",
       "home": "Stars",
       "visitor": "Wild"
     },
     {
       "date": "2026-04-28",
-      "time": "2026-04-28T16:00:00.000Z",
+      "time": "2026-04-29T02:00:00.000Z",
       "home": "Oilers",
       "visitor": "Ducks"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "2026-04-29T16:00:00.000Z",
+      "home": "Lightning",
+      "visitor": "Canadiens"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "2026-04-29T16:00:00.000Z",
+      "home": "Flyers",
+      "visitor": "Penguins"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "2026-04-29T16:00:00.000Z",
+      "home": "Avalanche",
+      "visitor": "Kings"
+    },
+    {
+      "date": "2026-04-29",
+      "time": "2026-04-29T16:00:00.000Z",
+      "home": "Golden Knights",
+      "visitor": "Mammoth"
     }
   ]
 }
