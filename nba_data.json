@@ -1,30 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-04-25",
-      "time": "2026-04-25T22:00:00Z",
-      "home": "Atlanta Hawks",
-      "visitor": "New York Knicks"
-    },
-    {
-      "date": "2026-04-25",
-      "time": "2026-04-26T00:30:00Z",
-      "home": "Minnesota Timberwolves",
-      "visitor": "Denver Nuggets"
-    },
-    {
-      "date": "2026-04-25",
-      "time": "2026-04-25T17:00:00Z",
-      "home": "Orlando Magic",
-      "visitor": "Detroit Pistons"
-    },
-    {
-      "date": "2026-04-25",
-      "time": "2026-04-25T19:30:00Z",
-      "home": "Phoenix Suns",
-      "visitor": "Oklahoma City Thunder"
-    },
-    {
       "date": "2026-04-26",
       "time": "2026-04-26T17:00:00Z",
       "home": "Toronto Raptors",
@@ -155,6 +131,30 @@
       "time": "2026-05-01T04:00:00Z",
       "home": "Phoenix Suns",
       "visitor": "Oklahoma City Thunder"
+    },
+    {
+      "date": "2026-05-02",
+      "time": "2026-05-02T04:00:00Z",
+      "home": "New York Knicks",
+      "visitor": "Atlanta Hawks"
+    },
+    {
+      "date": "2026-05-02",
+      "time": "2026-05-02T04:00:00Z",
+      "home": "San Antonio Spurs",
+      "visitor": "Portland Trail Blazers"
+    },
+    {
+      "date": "2026-05-02",
+      "time": "2026-05-02T04:00:00Z",
+      "home": "Denver Nuggets",
+      "visitor": "Minnesota Timberwolves"
+    },
+    {
+      "date": "2026-05-02",
+      "time": "2026-05-02T04:00:00Z",
+      "home": "Boston Celtics",
+      "visitor": "Philadelphia 76ers"
     }
   ]
 }
