@@ -1,24 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-04-28",
-      "time": "2026-04-29T00:00:00Z",
-      "home": "New York Knicks",
-      "visitor": "Atlanta Hawks"
-    },
-    {
-      "date": "2026-04-28",
-      "time": "2026-04-29T01:30:00Z",
-      "home": "San Antonio Spurs",
-      "visitor": "Portland Trail Blazers"
-    },
-    {
-      "date": "2026-04-28",
-      "time": "2026-04-28T23:00:00Z",
-      "home": "Boston Celtics",
-      "visitor": "Philadelphia 76ers"
-    },
-    {
       "date": "2026-04-29",
       "time": "2026-04-29T23:30:00Z",
       "home": "Cleveland Cavaliers",
@@ -38,25 +20,19 @@
     },
     {
       "date": "2026-04-30",
-      "time": "2026-04-30T04:00:00Z",
+      "time": "2026-04-30T23:00:00Z",
       "home": "Atlanta Hawks",
       "visitor": "New York Knicks"
     },
     {
       "date": "2026-04-30",
-      "time": "2026-04-30T04:00:00Z",
-      "home": "Portland Trail Blazers",
-      "visitor": "San Antonio Spurs"
-    },
-    {
-      "date": "2026-04-30",
-      "time": "2026-04-30T04:00:00Z",
+      "time": "2026-05-01T01:30:00Z",
       "home": "Minnesota Timberwolves",
       "visitor": "Denver Nuggets"
     },
     {
       "date": "2026-04-30",
-      "time": "2026-04-30T04:00:00Z",
+      "time": "2026-05-01T00:00:00Z",
       "home": "Philadelphia 76ers",
       "visitor": "Boston Celtics"
     },
@@ -83,12 +59,6 @@
       "time": "2026-05-02T04:00:00Z",
       "home": "New York Knicks",
       "visitor": "Atlanta Hawks"
-    },
-    {
-      "date": "2026-05-02",
-      "time": "2026-05-02T04:00:00Z",
-      "home": "San Antonio Spurs",
-      "visitor": "Portland Trail Blazers"
     },
     {
       "date": "2026-05-02",
