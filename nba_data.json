@@ -1,18 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-05-09",
-      "time": "2026-05-10T00:30:00Z",
-      "home": "Los Angeles Lakers",
-      "visitor": "Oklahoma City Thunder"
-    },
-    {
-      "date": "2026-05-09",
-      "time": "2026-05-09T19:00:00Z",
-      "home": "Cleveland Cavaliers",
-      "visitor": "Detroit Pistons"
-    },
-    {
       "date": "2026-05-10",
       "time": "2026-05-10T23:30:00Z",
       "home": "Minnesota Timberwolves",
@@ -77,6 +65,12 @@
       "time": "2026-05-15T04:00:00Z",
       "home": "Cleveland Cavaliers",
       "visitor": "Detroit Pistons"
+    },
+    {
+      "date": "2026-05-16",
+      "time": "2026-05-16T04:00:00Z",
+      "home": "Los Angeles Lakers",
+      "visitor": "Oklahoma City Thunder"
     }
   ]
 }
