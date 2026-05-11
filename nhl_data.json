@@ -1,18 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-05-10",
-      "time": "2026-05-10T23:00:00.000Z",
-      "home": "Canadiens",
-      "visitor": "Sabres"
-    },
-    {
-      "date": "2026-05-10",
-      "time": "2026-05-11T01:30:00.000Z",
-      "home": "Ducks",
-      "visitor": "Golden Knights"
-    },
-    {
       "date": "2026-05-11",
       "time": "2026-05-12T00:00:00.000Z",
       "home": "Wild",
@@ -38,13 +26,13 @@
     },
     {
       "date": "2026-05-14",
-      "time": "2026-05-14T16:00:00.000Z",
+      "time": "2026-05-14T23:00:00.000Z",
       "home": "Sabres",
       "visitor": "Canadiens"
     },
     {
       "date": "2026-05-14",
-      "time": "2026-05-14T16:00:00.000Z",
+      "time": "2026-05-15T01:30:00.000Z",
       "home": "Ducks",
       "visitor": "Golden Knights"
     },
@@ -65,6 +53,12 @@
       "time": "2026-05-16T16:00:00.000Z",
       "home": "Golden Knights",
       "visitor": "Ducks"
+    },
+    {
+      "date": "2026-05-17",
+      "time": "2026-05-17T16:00:00.000Z",
+      "home": "Avalanche",
+      "visitor": "Wild"
     }
   ]
 }
