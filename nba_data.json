@@ -1,18 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-05-10",
-      "time": "2026-05-10T23:30:00Z",
-      "home": "Minnesota Timberwolves",
-      "visitor": "San Antonio Spurs"
-    },
-    {
-      "date": "2026-05-10",
-      "time": "2026-05-10T19:30:00Z",
-      "home": "Philadelphia 76ers",
-      "visitor": "New York Knicks"
-    },
-    {
       "date": "2026-05-11",
       "time": "2026-05-12T02:30:00Z",
       "home": "Los Angeles Lakers",
@@ -26,15 +14,9 @@
     },
     {
       "date": "2026-05-12",
-      "time": "2026-05-12T04:00:00Z",
+      "time": "2026-05-13T00:00:00Z",
       "home": "San Antonio Spurs",
       "visitor": "Minnesota Timberwolves"
-    },
-    {
-      "date": "2026-05-12",
-      "time": "2026-05-12T04:00:00Z",
-      "home": "New York Knicks",
-      "visitor": "Philadelphia 76ers"
     },
     {
       "date": "2026-05-13",
@@ -47,12 +29,6 @@
       "time": "2026-05-13T04:00:00Z",
       "home": "Detroit Pistons",
       "visitor": "Cleveland Cavaliers"
-    },
-    {
-      "date": "2026-05-14",
-      "time": "2026-05-14T04:00:00Z",
-      "home": "Philadelphia 76ers",
-      "visitor": "New York Knicks"
     },
     {
       "date": "2026-05-15",
@@ -71,6 +47,18 @@
       "time": "2026-05-16T04:00:00Z",
       "home": "Los Angeles Lakers",
       "visitor": "Oklahoma City Thunder"
+    },
+    {
+      "date": "2026-05-17",
+      "time": "2026-05-17T04:00:00Z",
+      "home": "San Antonio Spurs",
+      "visitor": "Minnesota Timberwolves"
+    },
+    {
+      "date": "2026-05-17",
+      "time": "2026-05-17T04:00:00Z",
+      "home": "Detroit Pistons",
+      "visitor": "Cleveland Cavaliers"
     }
   ]
 }
