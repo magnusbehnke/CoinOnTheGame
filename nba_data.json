@@ -1,12 +1,6 @@
 {
   "games": [
     {
-      "date": "2026-06-03",
-      "time": "2026-06-04T00:30:00Z",
-      "home": "San Antonio Spurs",
-      "visitor": "New York Knicks"
-    },
-    {
       "date": "2026-06-05",
       "time": "2026-06-06T00:30:00Z",
       "home": "San Antonio Spurs",
@@ -15,6 +9,12 @@
     {
       "date": "2026-06-08",
       "time": "2026-06-09T00:30:00Z",
+      "home": "New York Knicks",
+      "visitor": "San Antonio Spurs"
+    },
+    {
+      "date": "2026-06-10",
+      "time": "2026-06-11T00:30:00Z",
       "home": "New York Knicks",
       "visitor": "San Antonio Spurs"
     }
