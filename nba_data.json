@@ -11,6 +11,12 @@
       "time": "2026-06-11T00:30:00Z",
       "home": "New York Knicks",
       "visitor": "San Antonio Spurs"
+    },
+    {
+      "date": "2026-06-13",
+      "time": "2026-06-14T00:30:00Z",
+      "home": "San Antonio Spurs",
+      "visitor": "New York Knicks"
     }
   ]
 }
